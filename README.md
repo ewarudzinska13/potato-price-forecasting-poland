@@ -137,14 +137,14 @@ Starting model: SARIMA(1,1,1)(1,1,1)₁₂
 |-------|-----|-----|----------|
 | (1,1,1)(1,1,0)₁₂ | -78.65 | -68.43 | |
 | (0,1,1)(1,1,0)₁₂ | -79.67 | -72.01 | |
-| **(1,1,0)(1,1,0)₁₂** | **-80.15** | **-74.49** | **✓** |
+| **(1,1,0)(1,1,0)₁₂** | **-80.15** | **-74.49** | **x** |
 | (0,1,0)(1,1,0)₁₂ | -78.84 | -73.73 | |
 
 **Final model**: SARIMA(1,1,0)(1,1,0)₁₂
 
 **Diagnostics**:
-- Ljung-Box test: p = 0.24 (residuals are white noise ✓)
-- ACF/PACF of residuals: No significant spikes ✓
+- Ljung-Box test: p = 0.24 (residuals are white noise)
+- ACF/PACF of residuals: No significant spikes 
 
 ## Comparison with Baseline Study
 
